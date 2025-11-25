@@ -104,10 +104,6 @@ class TestDataExtraction(unittest.TestCase):
             self.assertIn("@",email)
 
         #chceks if invalid number is checked correctly or not
-
-
-
-
         self.assertEqual(df.iloc[0]["Phone Number"],"Invalid Number")
 
 
